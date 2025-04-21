@@ -1,1 +1,97 @@
+<!-- DEVELOPER: Mansi Sangani, IS117-XXX, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Local Attractions | LearnSmart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">LearnSmart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="online-tools.html">Online Tools</a></li>
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="attractions.html">Attractions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Header -->
+  <header class="bg-light py-5 text-center">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Local Learning Attractions</h1>
+      <p class="lead">Discover fun and educational places to explore with your family or class!</p>
+    </div>
+  </header>
+
+  <!-- Attractions Section -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Attraction 1 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/science-museum.jpg" class="card-img-top" alt="Science Museum">
+            <div class="card-body">
+              <h5 class="card-title">Metro Science Museum</h5>
+              <p class="card-text">Interactive exhibits on space, robotics, and physics. Great for all ages!</p>
+              <a href="https://www.metrosciencemuseum.org" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        <!-- Attraction 2 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/children-library.jpg" class="card-img-top" alt="Children's Library">
+            <div class="card-body">
+              <h5 class="card-title">Downtown Children’s Library</h5>
+              <p class="card-text">Storytime events, reading challenges, and a cozy space for young readers.</p>
+              <a href="https://www.downtownlibrary.org" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        <!-- Attraction 3 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/history-center.jpg" class="card-img-top" alt="History Center">
+            <div class="card-body">
+              <h5 class="card-title">History & Culture Center</h5>
+              <p class="card-text">Explore local heritage with artifacts, tours, and student workshops.</p>
+              <a href="https://www.historycenter.org" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-3 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2025 LearnSmart. All rights reserved.</p>
+      <p><a href="#" class="text-white text-decoration-underline">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
