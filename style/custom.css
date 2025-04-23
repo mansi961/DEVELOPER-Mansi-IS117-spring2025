@@ -31,7 +31,7 @@ header p {
 /* Card customization */
 .card {
   border: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -84,7 +84,8 @@ section {
 }
 
 /* Form styling */
-form input, form textarea {
+form input,
+form textarea {
   margin-bottom: 1rem;
 }
 
@@ -97,4 +98,52 @@ form input, form textarea {
   .card-title {
     font-size: 1.25rem;
   }
+}
+
+/* styles/home.css */
+
+/* Hero image style for the homepage */
+.hero-image {
+  background-image: url('images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.hero-image h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image p {
+  font-size: 1.5rem;
+}
+
+/* Unique card styles on homepage */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h5 {
+  color: #003366;
+}
+
+.card-body p {
+  color: #555;
+}
+
+.card-body a {
+  background-color: #FF9900;
+  color: white;
+}
+
+/* Footer specific for homepage */
+.footer {
+  background-color: #222;
+  text-align: center;
+}
+
+.footer a {
+  color: #FF9900;
 }
